@@ -114,6 +114,107 @@
 		clear: both;
 	}
 	
+	/*Tables */
+	table.title{
+		width: 1000px;
+	}
+	table.games{
+		width: 1000px;
+		border-bottom: 2px solid black;
+	}
+
+	tr.comp{
+		padding: 5px 5px 5px 5px;
+		background-color: black;
+		color: white;
+		border-color: white;
+		border-bottom: : 1px solid black;
+	}
+	tr.inner{
+		padding: 5px 5px 5px 5px;
+		border-bottom: : 2px solid black
+	}
+
+	th.comp{
+		font-family: 'Oxygen', sans-serif;
+		padding: 10px 10px 10px 10px;
+		background-color: black;
+		color: white;
+		border-color: white;
+		border-left: 1px;
+		border-bottom: 2px;
+	}
+
+	td.comp{
+		font-family: 'Oxygen', sans-serif;
+		padding: 10px 10px 10px 10px;
+		border-bottom: 3px solid black;
+		text-align: center;
+	}
+
+	td.top-row{
+		font-family: 'Oxygen', sans-serif;
+		padding: 10px 10px 10px 10px;
+		text-align: center;
+	}
+	table.standings{
+		width: 1000px;
+	}
+
+	tr.standings{
+		padding: 5px 5px 5px 5px;
+		background-color: black;
+		color: white;
+		border-color: white;
+		border-left: 1px;
+	}
+
+	th.standings{
+		font-family: 'Oxygen', sans-serif;
+		padding: 10px 10px 10px 10px;
+		background-color: black;
+		color: white;
+		border-color: white;
+		border-left: 1px;
+		border-bottom: 2px;
+	}
+
+	td.standings{
+		font-family: 'Oxygen', sans-serif;
+		padding: 10px 10px 10px 10px;
+		border-left: 1px;
+		text-align: center;
+	}
+
+	table.eliminator{
+		width: 1000px;
+	}	
+
+	th.eliminator{
+		border-color: : white;
+		border-bottom: 2px;
+	}	
+	tr.eliminator{
+		width: 1000px;
+		border-left: 1px;
+		border-bottom: 1px;
+		border-right: 1px;
+		border-top: 1px;
+		border-color: white;
+	}
+
+	td.eliminator{
+		font-family: 'Oxygen', sans-serif;
+		padding: 7px 7px 7px 7px;
+		text-align: center;
+		border-left: 1px;
+		border-bottom: 1px;
+		border-right: 1px;
+		border-top: 1px;
+		border-color: black;
+		
+	}
+
 	/* Buttons */
 		
 		.button
@@ -257,6 +358,43 @@
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
+	.main-wrapper{
+		margin: 0 auto;
+		width: 1000px;
+		height: 40px;
+	}
+
+	
+
+	header .nav-login{
+		float: right;
+	}
+
+	header .nav-login form{
+		float: left;
+		padding-top: 15px;
+	}
+
+	header .nav-login form input{
+		float: left;
+		width: 200px;
+		height: 30px;
+		padding: 0px 10px;
+		margin-right: 10px;
+		border: none;
+		line-height: 30px;
+	}
+
+	header .nav-login form button{
+		float: left;
+		width: 60px;
+		height: 30px;
+		margin-right: 10px;
+		background-color: #d3d3d3;
+		color: #000000;
+		border: none;
+		cursor: pointer;
+	}
 
 	#header
 	{

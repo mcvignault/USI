@@ -1,14 +1,12 @@
 <?php
 	if (isset($_POST['submit'])) {
-		# code...
-	} else{
-		header("Location: ../MLB_registration.php");
-		exit();
-	}
-
-
+	
 	include_once 'MLBDBConn.php';
 	
+	$name=$_POST['first'];
+	$email=$_POST['email'];
+	
+
 	$first = mysqli_real_escape_string($conn, $_POST['first']);
 	$last = mysqli_real_escape_string($conn, $_POST['last']);
 	$email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -26,13 +24,28 @@
 	//hashing password
 	$hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 	//Insert user into the database
-	
-
 	$sql = "INSERT INTO users (user_first, user_last, user_email, user_dkid, user_pwd)
 			VALUES ('$first', '$last', '$email', '$dkid', '$hashedPwd');";
 	
 	mysqli_query($conn, $sql);
 	
-	
-	
-	header("Location: ../Main_Payment.php");
+	//Send confirmation email to registrant
+	$from='trendengsports@gmail.com'; // My email ID
+	$subject='Ultimate Sports Investor - Complete Registration';
+	$message="Hi ".$name."! Thank you for registering for the Ultimate Sports Investor!"."\n\n"."In order to complete your registration, please submit your payment via one of the following options:"."\n\n"."1. PayPal:"."\t"."Main Competition - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Main%20Competition&amount=20%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"."\n"."\t\t"."Eliminator - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Eliminator&amount=10%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"."\n\n"."2. Interac e-transfer to:  trendengsports@gmail.com"."\n\n"."Thank you,"."\n\n"."The Trend-Eng Sports Team";
+	$headers="From: ".$from;
+
+	if(mail($email, $subject, $message, $headers)){
+		echo "<h1>Thank you for registering!  An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.</h1>";
+	}
+	else{
+		echo "Oop, something went wrong! Click <a href='MLB_Registration.php>HERE</a> to return to registration page.";
+	}
+		
+	//header("Location: ../Main_Payment.php");
+	} else{
+		header("Location: ../MLB_registration.php");
+		exit();
+	}
+
+?>

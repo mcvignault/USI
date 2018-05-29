@@ -16,6 +16,8 @@
 						<br />
 						Full rules can be found on the <a href="USI_Rules.php">Rules</a> page.  
 					</p>
+
+					<p>Registration for the MLB Ultimate Sports Investor and MLB Daily Fantasy Sports Eliminator is now open!!   <a href="MLB_registration.php" class="button">Register Now</a></p>
 				</header>
 				<div class="divider">&nbsp;</div>
 				<header>
@@ -64,7 +66,7 @@
 									<span class="byline">Who are we?</span>
 								</header>
 								<p><a href="#" class="image full"><img src="images/sports business.jpg" alt=""></a></p>
-								<p><strong>Trend-Eng Sports</strong> is a company started by two die hard sports fans who also happen to be Wilfrid Laurier University MBA students. We at Trend-Eng Sports seek to provide a platform through which users can increase the entertainment value of sports via successful sports betting and daily fantasy sports participation. Trend-Eng Sports believes that success comes from both strategic quantitative analysis, as well as crafty qualitative analysis. Our years of experience in both the sports betting and daily fantasy sports industries allow us to provide you with quality insight that you can use to beat your peers and earn you prizes.</p>
+								<p><strong>Trend-Eng Sports</strong> is a company started by two die hard sports fans who also happen to be Wilfrid Laurier University MBA students. We at Trend-Eng Sports seek to provide a platform through which users can increase the entertainment value of sports via successful sports betting and daily fantasy sports participation. Trend-Eng Sports believes that success comes from both strategic quantitative analysis, as well as crafty qualitative analysis. Our years of experience in both the sports betting and daily fantasy sports industries allow us to provide you with quality insight that you can use to outsmart your peers and earn you prizes.</p>
 								<a href="#" class="button">Read More</a>
 							</section>
 						</div>

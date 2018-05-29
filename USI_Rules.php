@@ -13,7 +13,7 @@
 									<h2>RULES</h2>
 									<span class="byline">How to participate and succeed in the Ultimate Sports Investor Competition</span>
 								</header>
-								<p><a href="#" class="image full"><img src="images/referees.jpg" width="1000" height="200" alt=""></a></p>
+								<p><a href="#" class="image full"><img src="images/referees2.jpg" width="1000" height="200" alt=""></a></p>
 								<h2>REGISTRATION REQUIREMENTS</h2>
 								<p>Each player must have a personal account at DraftKings.</br>
 If you do not have an account, please utilize our referral link when registering by clicking <a href="#">here</a>.</br> 

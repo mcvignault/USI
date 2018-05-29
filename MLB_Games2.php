@@ -51,9 +51,11 @@
 <form action="MLB_Games2.php" method="POST">
 <input type="date" name="gm_date">
 <button name="submit" type="submit">Submit</button>
-
 </form>
+
 <br />
+
+
 
 <table class="title">
 			<thead>
@@ -95,10 +97,10 @@ if(isset($_POST['submit'])) {
 		$GmCount = 1;
 		$BetNo = 1;
 		while($row = mysqli_fetch_assoc($result)){
-			echo "<tr><td rowspan=2 class='comp'>".$GmCount."</td><td class='top-row'>"."Away"."</td><td class='top-row'>".$row["away_team"]."</td><td class='top-row'>"."A"."</td><td class='top-row'>".$row["away_ml"]."</td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>".
-			"</td><td class='top-row'>"."A+"."</td><td class='top-row'>".$row["away_rl"]."</td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>".
-			"</td><td rowspan=2 class='comp'>"."".$row["total"]."</td><td class='top-row'>"."O"."</td><td class='top-row'>"."Over"."</td><td class='top-row'>".$row["over_odds"]."</td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>"."</td></tr>".
-			"<tr><td class='comp'>"."Home"."</td><td class='comp'>".$row["home_team"]."</td><td class='comp'>"."H"."</td><td class='comp'>".$row["home_ml"]."</td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td><td class='comp'>"."H+"."</td><td class='comp'>".$row["home_rl"]."</td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td><td class='comp'>"."U"."</td><td class='comp'>"."Under"."</td><td class='comp'>".$row["under_odds"]."</td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td></tr>";
+			echo "<tr><td rowspan=2 class='comp'>".$GmCount."</td><td class='top-row'>"."Away"."</td><td class='top-row'>".$row["away_team"]."</td><td class='top-row'>"."A"."</td><td class='top-row'><span class='ml-odds'>".$row["away_ml"]."</span></td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>".
+			"</td><td class='top-row'>"."A+"."</td><td class='top-row'><span class='rl-odds'>".$row["away_rl"]."</span></td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>".
+			"</td><td rowspan=2 class='comp'>"."".$row["total"]."</td><td class='top-row'>"."O"."</td><td class='top-row'>"."Over"."</td><td class='top-row'><span class='ou-odds'>".$row["over_odds"]."</span></td><td class='top-row'>"."<input placeholder='$$' type='text' size='5'>"."</td></tr>".
+			"<tr><td class='comp'>"."Home"."</td><td class='comp'>".$row["home_team"]."</td><td class='comp'>"."H"."</td><td class='comp'><span class='ml-odds'>".$row["home_ml"]."</span></td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td><td class='comp'>"."H+"."</td><td class='comp'><span class='rl-odds'>".$row["home_rl"]."</span></td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td><td class='comp'>"."U"."</td><td class='comp'>"."Under"."</td><td class='comp'><span class='ou-odds'>".$row["under_odds"]."</span></td><td class='comp'>"."<input placeholder='$$' type='text' size='5'>"."</td></tr>";
 			$GmCount = $GmCount+1;
 		}
 		
@@ -113,6 +115,12 @@ if(isset($_POST['submit'])) {
 </tbody>
 </table>
 
+<?php
+	if(isset($_SESSION['u_id'])){
+		echo '<br /><form action="MLB_includes/MLB_Logout.php" method="POST">
+			<button type="submit" name="submit">Submit Picks</button></form>';
+} 
+?>
 </section>
 						</div>
 					<!-- /Content -->

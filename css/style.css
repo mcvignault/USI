@@ -116,10 +116,10 @@
 	
 	/*Tables */
 	table.title{
-		width: 1000px;
+		width: 700px;
 	}
 	table.games{
-		width: 1000px;
+		width: 700px;
 		border-bottom: 2px solid black;
 	}
 
@@ -137,7 +137,7 @@
 
 	th.comp{
 		font-family: 'Oxygen', sans-serif;
-		padding: 10px 10px 10px 10px;
+		padding: 5px 5px 5px 5px;
 		background-color: black;
 		color: white;
 		border-color: white;
@@ -147,14 +147,14 @@
 
 	td.comp{
 		font-family: 'Oxygen', sans-serif;
-		padding: 10px 10px 10px 10px;
+		padding: 5px 5px 5px 5px;
 		border-bottom: 3px solid black;
 		text-align: center;
 	}
 
 	td.top-row{
 		font-family: 'Oxygen', sans-serif;
-		padding: 10px 10px 10px 10px;
+		padding: 5px 5px 5px 5px;
 		text-align: center;
 	}
 	table.standings{

@@ -10,7 +10,7 @@
 							<section>
 								<header>
 									<h2>REGISTRATION</h2>
-									<span class="byline">Registration is currently open for the MLB Ultimate Sports Investor Competition. Please use the form below to register:</span>
+									<span class="byline">Registration is currently open for the MLB Ultimate Sports Investor Competition and the MLB Daily Fantasy Eliminator. Please use the form below to register:</span>
 								</header>
 								
 		

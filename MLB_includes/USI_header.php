@@ -11,7 +11,7 @@ session_start();
 -->
 <html>
 	<head>
-		<title>Monochromed by TEMPLATED</title>
+		<title>Ultimate Sports Investor - Presented by Trend-Eng Sports</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />

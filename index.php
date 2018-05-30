@@ -9,16 +9,14 @@
 					<p><a href="#" class="image full"><img src="images/diamond2.jpg" alt=""></a></p>
 					<p>The Ultimate Sports Investor is a competition that combines sports betting and daily fantasy sports in order to test your true sports acumen.</p>
 					<p>In it's simplest form the participation in the Ultimate Sports Investor Competition involves the following:
-						<li>Make winning sports bets</li>
-						<li>Draft winning Daily Fantasy Sports Rosters</li>
-						<li>Beat your opponents to earn points</li>
-						<li>Win money</li>
-						<br />
-						Full rules can be found on the <a href="USI_Rules.php">Rules</a> page.  
-					</p>
-
-					<p>Registration for the MLB Ultimate Sports Investor and MLB Daily Fantasy Sports Eliminator is now open!!   <a href="MLB_registration.php" class="button">Register Now</a></p>
-				</header>
+						<li>Make sports bets and draft Daily Fantasy Sports rosters <a href="MLB_Games2.php">HERE</a></li>
+						<li>Watch your teams win and players put up points</li>
+						<li>Earn more return on your bets and score more fantasy points than the competition</li>
+						<li>Win money</li></p>
+						<p>Simple as a Bryce Harper broken bat homerun!</p>
+						<p>The competition will run for 5 weeks, with competition nights twice per week (10 nights total). Full rules can be found on the <a href="USI_Rules.php">Rules</a> page. </p>
+						<p>Only interested in Daily Fantasy Sports?  Try out our MLB Eliminator! Just don't come last in the DraftKings contest that night and you can win!</p>
+					<p>Registration for the MLB Ultimate Sports Investor and MLB Daily Fantasy Sports Eliminator is now open!!   <a href="MLB_registration.php" class="button">Register Now</a></p>				</header>
 				<div class="divider">&nbsp;</div>
 				<header>
 									<h2>Sports Investing</h2>

@@ -15,7 +15,7 @@
 								<p>Please complete the form below. An email will be sent to the provided address containing links to entry fee payment options (be sure to check your spam/junk folders).</p>
 								<p>The fees for the two competitions are:
 									<li>Main Competition - $20</li>
-									<li>Eliminator - $10</li></p>
+									<li>DFS Eliminator - $10</li></p>
 		
 		  <form action="MLB_includes/MLB_DBReg.php" method="POST">
 			<fieldset>

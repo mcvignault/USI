@@ -18,7 +18,7 @@
 								</header>
 								<p>
 								An email has been sent to the email address you provided.  
-								Please follow the steps provided to complete your registration.  
+								Please follow the steps provided to complete your registration.<br />  
 									Updates will be sent via email with respect to the competition
 									start date and schedule.
 								</p>								

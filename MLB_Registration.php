@@ -10,9 +10,11 @@
 							<section>
 								<header>
 									<h2>REGISTRATION</h2>
-									<span class="byline">Registration is currently open for the MLB Ultimate Sports Investor Competition and the MLB Daily Fantasy Eliminator. Please use the form below to register:</span>
+									<span class="byline">Registration is currently open for the MLB Ultimate Sports Investor Competition and the MLB Daily Fantasy Eliminator.</span>
 								</header>
-								
+								<p>Once you fill in the following form, an email will be sent to the provided address containing links to entry fee payment options.  The fees for the two competitions are:
+									<li>Main Competition - $20</li>
+									<li>Eliminator - $10</li></p>
 		
 		  <form action="MLB_includes/MLB_DBReg.php" method="POST">
 			<fieldset>

@@ -10,10 +10,10 @@
 						<div id="content" class="12u skel-cell-important">
 							<section>
 								<header>
-									
+									<h2>Thank You For Registering!</h2>
 									<span class="byline">
 										<p>
-											<h2>Thank you for registering!  An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.</h2>"
+											An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.
 											</p>
 											<hr />
 									</span>

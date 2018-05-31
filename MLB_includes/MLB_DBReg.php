@@ -36,10 +36,10 @@
 	$headers="From: ".$from;
 
 	if(mail($email, $subject, $message, $headers)){
-		echo "<h1>Thank you for registering!  An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.</h1>";
+		header("Location: ../Reg_Confirm.php?registration=success");
 	}
 	else{
-		echo "Oop, something went wrong! Click <a href='MLB_Registration.php>HERE</a> to return to registration page.";
+		header("Location: ../MLB_registration.php?registration=error");
 	}
 		
 	//header("Location: ../Main_Payment.php");
@@ -49,3 +49,4 @@
 	}
 
 ?>
+	

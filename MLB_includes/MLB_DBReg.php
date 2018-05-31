@@ -32,7 +32,12 @@
 	//Send confirmation email to registrant
 	$from='trendengsports@gmail.com'; // My email ID
 	$subject='Ultimate Sports Investor - Complete Registration';
-	$message="Hi ".$name."! Thank you for registering for the Ultimate Sports Investor!"."\n\n"."In order to complete your registration, please submit your payment via one of the following options:"."\n\n"."1. PayPal:"."\t"."Main Competition - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Main%20Competition&amount=20%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"."\n"."\t\t"."Eliminator - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Eliminator&amount=10%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"."\n\n"."2. Interac e-transfer to:  trendengsports@gmail.com"."\n\n"."Thank you,"."\n\n"."The Trend-Eng Sports Team";
+	$message="Hi ".$name."! Thank you for registering for the Ultimate Sports Investor!"."\n\n".
+		"In order to complete your registration, please submit your payment via one of the following options:"."\n\n".
+		"1. PayPal:"."\t"."Main Competition - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Main%20Competition&amount=20%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"."\n\n".
+		"\t\t\t"."Eliminator - https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=4VEJYZH9WPJHU&lc=CA&item_name=MLB%20%2d%20Eliminator&amount=10%2e00&currency_code=CAD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted".
+		"\n\n"."2. Interac e-transfer to:  trendengsports@gmail.com"."\n\n"."Reminder that the Main Competition entry fee is $20 and the Eliminator entry fee is $10."."\n\n".
+		"Thank you,"."\n\n"."The Trend-Eng Sports Team";
 	$headers="From: ".$from;
 
 	if(mail($email, $subject, $message, $headers)){

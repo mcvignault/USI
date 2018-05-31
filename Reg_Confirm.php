@@ -12,12 +12,13 @@
 								<header>
 									<h2>Thank You For Registering!</h2>
 									<span class="byline">
-										<p>
-											An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.
-											</p>
+										
 											<hr />
 									</span>
-								</header>								
+								</header>
+								<p>
+											An email has been sent to the email address you provided.  Please follow the steps provided to complete your registration.
+											</p>								
 </section>
 						</div>
 					<!-- /Content -->

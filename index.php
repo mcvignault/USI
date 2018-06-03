@@ -16,7 +16,7 @@
 						<p>Simple as a Bryce Harper broken bat homerun!</p>
 						<p>The competition will run for 5 weeks, with competition nights twice per week (10 nights total). Full rules can be found on the <a href="USI_Rules.php">Rules</a> page. </p>
 						<p>Only interested in Daily Fantasy Sports?  Try out our MLB Eliminator! Just don't come last in the DraftKings contest that night and you can win!</p>
-					<p>Registration for the MLB Ultimate Sports Investor and MLB Daily Fantasy Sports Eliminator is now open!!   <a href="MLB_registration.php" class="button">Register Now</a></p>				</header>
+					<p>Registration for the MLB Ultimate Sports Investor and MLB Daily Fantasy Sports Eliminator is now open!!   <a href="MLB_Registration.php" class="button">Register Now</a></p>				</header>
 				<div class="divider">&nbsp;</div>
 				<header>
 									<h2>Sports Investing</h2>

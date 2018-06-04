@@ -16,7 +16,7 @@
 								<p><a href="#" class="image full"><img src="images/referees2.jpg" width="1000" height="200" alt=""></a></p>
 								<h2>REGISTRATION REQUIREMENTS</h2>
 								<p>Each player must have a personal account at DraftKings.</p>
-<p>If you do not have an account, please utilize our referral link when registering by clicking <a href="#">here</a>. </p>
+<p>If you do not have an account, please utilize our referral link when registering by clicking <a href="https://www.draftkings.com/r/jmo26">here</a>. </p>
 <p>
 In order to create an account, DraftKings requires the following:
 <li>your full name</li>

@@ -36,6 +36,7 @@ session_start();
 					<div class="nav-login">
 						<?php
 							if(isset($_SESSION['u_id'])){
+								echo '<span class="nav-welcome">Welcome ' . $_SESSION['u_first'] . ' ' . $_SESSION['u_last'] . '</span>';
 								echo '<form action="MLB_includes/MLB_Logout.php" method="POST">
 									<button type="submit" name="submit">Logout</button></form>';
 						} else {						

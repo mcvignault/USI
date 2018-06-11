@@ -32,9 +32,10 @@ session_start();
 		
 	<!-- Header -->
 	<header>	
-		<div class="container">
+	<div class="container">	
 		<div class="main-wrapper">
 					<div class="nav-login">
+						
 						<?php
 							if(isset($_SESSION['u_id'])){
 								echo '<span class="nav-welcome">Welcome ' . $_SESSION['u_first'] . ' ' . $_SESSION['u_last'] . '</span>';

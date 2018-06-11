@@ -32,6 +32,7 @@ session_start();
 		
 	<!-- Header -->
 	<header>	
+		<div class="container">
 		<div class="main-wrapper">
 					<div class="nav-login">
 						<?php
@@ -51,9 +52,7 @@ session_start();
 					</div>
 		</div>
 </header>	
-		<div id="header">
-			<div class="container">
-					
+		<div id="header">	
 				<!-- Logo -->
 					<div id="logo">
 						<h1><a href="#">ULTIMATE SPORTS INVESTOR</a></h1>

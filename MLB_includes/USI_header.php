@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ?>
@@ -11,7 +10,7 @@ session_start();
 -->
 <html>
 	<head>
-		<title>Ultimate Sports Investor - Presented by Trend-Eng Sports</title>
+		<title>Monochromed by TEMPLATED</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -32,28 +31,34 @@ session_start();
 		
 	<!-- Header -->
 	<header>	
-	<div class="container">	
+		
+			
+<div class="container">	
 		<div class="main-wrapper">
 					<div class="nav-login">
-						
+							
+							
 						<?php
 							if(isset($_SESSION['u_id'])){
-								echo '<span class="nav-welcome">Welcome ' . $_SESSION['u_first'] . ' ' . $_SESSION['u_last'] . '</span>';
-								echo '<form action="MLB_includes/MLB_Logout.php" method="POST">
-									<button type="submit" name="submit">Logout</button></form>';
+								echo '<div class="container"><form action="MLB_includes/MLB_Logout.php" method="POST">
+									<button type="submit" name="submit">Logout</button></form></div>';
 						} else {						
 							
-						echo '<form action="MLB_includes/MLB_Login.php" method="POST">
+						echo '<div class="container"><form action="MLB_includes/MLB_Login.php" method="POST">
 							<input placeholder="DraftKings Username" name="dkid" type="text" tabindex="1" required>
 							<input placeholder="Password" name="pwd" type="password" tabindex="1" required>
 							<button type="submit" name="submit">Login</button>
-							</form>';
+							</form></div>';
 							}
 						?>
+					
+				
 					</div>
 		</div>
-</header>	
-		<div id="header">	
+	
+</header>		
+	<div id="header">	
+			
 				<!-- Logo -->
 					<div id="logo">
 						<h1><a href="#">ULTIMATE SPORTS INVESTOR</a></h1>

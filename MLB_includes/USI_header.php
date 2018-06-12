@@ -36,7 +36,7 @@ session_start();
 <div class="container">	
 		<div class="main-wrapper">
 					<div class="nav-login">
-							
+							<nav id="nav">
 							
 						<?php
 							if(isset($_SESSION['u_id'])){
@@ -51,7 +51,7 @@ session_start();
 							</form>';
 							}
 						?>
-					
+						</nav>
 				</div>
 				</div>
 		</div>

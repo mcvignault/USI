@@ -30,9 +30,8 @@ session_start();
 	<body>
 		
 	<!-- Header -->
-
 	<div id="header">	
-			
+		<div class="container">	
 				<!-- Logo -->
 					<div id="logo">
 						<h1><a href="#">ULTIMATE SPORTS INVESTOR</a></h1>
@@ -42,10 +41,8 @@ session_start();
 				<!-- Nav -->
 					<nav id ="nav">
 						<?php include('nav.php'); ?>
-
 					</nav>
 		</div>
-
+	</div>
 
 	<!-- Header -->
-

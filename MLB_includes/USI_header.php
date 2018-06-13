@@ -30,6 +30,8 @@ session_start();
 	<body>
 		
 	<!-- Header -->
+<header>
+	
 	<div id="header">	
 		<div class="container">	
 				<!-- Logo -->
@@ -42,7 +44,26 @@ session_start();
 					<nav id ="nav">
 						<?php include('nav.php'); ?>
 					</nav>
+					
 		</div>
 	</div>
+	<div class="main-wrapper">
+	<div class="nav-login">
+			<?php
+							if(isset($_SESSION['u_id'])){
+								echo '<h3>Thanks for Logging In! $_SESSION["u_id"]</h3><form action="MLB_includes/MLB_Logout.php" method="POST">
+									<button type="submit" name="submit">Logout</button></form>';
+						} else {						
+							
+						echo '<form action="MLB_includes/MLB_Login.php" method="POST">
+							<input placeholder="DK Username" name="dkid" type="text" tabindex="1" required>
+							<input placeholder="Password" name="pwd" type="password" tabindex="1" required>
+							<button type="submit" name="submit">Login</button>
+							</form>';
+							}
+						?>
+		</div>
+	</div>
+</header>
 
 	<!-- Header -->

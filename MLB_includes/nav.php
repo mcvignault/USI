@@ -5,6 +5,6 @@
 	<li><a href="MLB_Games2.php">Make Picks</a></li>
 	<li><a href="Standings_Main.php">Standings</a></li>
 	<li><a href="Contact.php">Contact</a></li>
-	<li><a href="Login.php">Login</a></li>
+	<li><a href="onecolumn.php">Login</a></li>
 </ul>
 					

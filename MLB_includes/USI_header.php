@@ -30,33 +30,7 @@ session_start();
 	<body>
 		
 	<!-- Header -->
-	<header>	
-		
-			
-<div class="container">	
-		<div class="main-wrapper">
-					<div class="nav-login">
-							<nav id="nav">
-							
-						<?php
-							if(isset($_SESSION['u_id'])){
-								echo '<form action="MLB_includes/MLB_Logout.php" method="POST">
-									<button type="submit" name="submit">Logout</button></form>';
-						} else {						
-							
-						echo '<form action="MLB_includes/MLB_Login.php" method="POST">
-							<input placeholder="DraftKings Username" name="dkid" type="text" tabindex="1" required>
-							<input placeholder="Password" name="pwd" type="password" tabindex="1" required>
-							<button type="submit" name="submit">Login</button>
-							</form>';
-							}
-						?>
-						</nav>
-				</div>
-				</div>
-		</div>
-	
-</header>		
+
 	<div id="header">	
 			
 				<!-- Logo -->
@@ -66,7 +40,7 @@ session_start();
 					</div>
 				
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id ="nav">
 						<?php include('nav.php'); ?>
 
 					</nav>

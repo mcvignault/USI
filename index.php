@@ -5,7 +5,7 @@
 		<div id="main">
 			<div class="container">
 				<header>
-					<h2>What is the Ultimate Sports Investor?</h2></br>
+					<h2>What is Trend-Eng Sports?</h2></br>
 					<p><a href="#" class="image full"><img src="images/diamond2.jpg" alt=""></a></p>
 					<p>The Ultimate Sports Investor is a competition that combines sports betting and daily fantasy sports in order to test your true sports acumen.</p>
 					<p>In it's simplest form the participation in the Ultimate Sports Investor Competition involves the following:

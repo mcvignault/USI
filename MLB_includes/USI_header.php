@@ -11,7 +11,7 @@ session_start();
 -->
 <html>
 	<head>
-		<title>Ultimate Sports Investor - By Trend-Eng Sports</title>
+		<title>Trend-Eng Sports</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -37,8 +37,8 @@ session_start();
 		<div class="container">	
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="#">ULTIMATE SPORTS INVESTOR</a></h1>
-						<span>Presented by Trend-Eng Sports</span>
+						<h1><a href="#">TREND-ENG SPORTS</a></h1>
+						<span>Certified Winning Information</span>
 					</div>
 				
 				<!-- Nav -->
